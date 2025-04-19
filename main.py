@@ -1,7 +1,7 @@
 import pygame
 
 from data.classes.Board import Board 
-from data.classes.bots.bot import Bot
+from data.classes.bots.bot import Bot 
 
 # Configuration
 AUTO_PLAY = False  # Set to True for automatic bot moves, False for manual stepping
