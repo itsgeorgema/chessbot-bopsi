@@ -1,9 +1,6 @@
 import pygame
 
-from data.classes.Board import Board
-from data.classes.bots.random_bot import RandomBot
-from data.classes.bots.minimax_bot import MinimaxBot
-from data.classes.bots.single_step_bot import SingleStepBot  
+from data.classes.Board import Board 
 from data.classes.bots.bot import Bot
 
 # Configuration
