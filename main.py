@@ -3,6 +3,8 @@ import pygame
 from data.classes.Board import Board
 from data.classes.bots.random_bot import RandomBot
 from data.classes.bots.minimax_bot import MinimaxBot
+from data.classes.bots.single_step_bot import SingleStepBot  
+from data.classes.bots.bot import Bot
 
 # Configuration
 AUTO_PLAY = False  # Set to True for automatic bot moves, False for manual stepping
@@ -45,8 +47,8 @@ if __name__ == "__main__":
     running = True
     # bot1 = RandomBot()
     # bot2 = RandomBot()
-    bot1 = MinimaxBot()
-    bot2 = MinimaxBot()
+    bot1 = Bot()
+    bot2 = Bot()
     while running:
         mx, my = pygame.mouse.get_pos()
         for event in pygame.event.get():
