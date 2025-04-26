@@ -1,8 +1,8 @@
-# ACM Chess Rules
+# RULES
 
 ## Overview
 
-ACM Chess is a variant of traditional chess played on a **6x6 board** with modified rules and piece compositions. Each player starts with:
+variant of traditional chess played on a **6x6 board** with modified rules and piece compositions. Each player starts with:
 
 - **6 Pawns**
 - **1 Castle** (Rook) on the far-left side
@@ -15,7 +15,7 @@ ACM Chess is a variant of traditional chess played on a **6x6 board** with modif
 
 ## Objective
 
-The objective of ACM Chess is to **Capture** your opponent’s King while following the modified board and piece movements.
+ **Capture** your opponent’s King while following the modified board and piece movements.
 
 ## Piece Movements
 
