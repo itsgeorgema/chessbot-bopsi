@@ -6,9 +6,6 @@ class SingleStepBot:
     A bot that chooses the best move based on a simple evaluation function.
     It evaluates the possible moves and selects the one with the highest score.
     This is a basic implementation and may not be optimal for all scenarios.
-    You are responsible for testing and improving the bot's performance.
-    Warning: we have set a hard time limit of 0.1 second for the bot to make a move.
-    If your bot takes longer than that, it will be terminated and our evaluation server will choose random moves.
     """
     def __init__(self):
         pass
