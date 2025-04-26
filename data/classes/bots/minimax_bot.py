@@ -9,7 +9,7 @@ class MinimaxBot:
     """
 
     def __init__(self):
-        self.depth = 1  ## Please set the depth <= 2 unless you are sure your bot runs within the time limit.
+        self.depth = 1  
 
     def get_possible_moves(self, side, board):
         return board.get_all_valid_moves(side)
