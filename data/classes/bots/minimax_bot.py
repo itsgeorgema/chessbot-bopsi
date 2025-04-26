@@ -5,14 +5,7 @@ from data.classes.Board import Board
 
 class MinimaxBot:
     """
-    This is a sample minimax bot that uses the minimax algorithm to choose the best move.
-    It evaluates the board state and simulates moves to find the optimal one.
-    This is a basic implementation and may not be optimal for all scenarios.
-    You are responsible for testing and improving the bot's performance. We recommend using depth 1 at first.
-    We also recommend using a more advanced evaluation function for better performance.
-    Warning: we have set a hard time limit of 0.1 second for the bot to make a move. If your bot takes
-    longer than that, it will be terminated and our evaluation server will choose random moves. We have tested
-    the bot with different depths and it nearly always exceeds the time limit if the depth is greater than 2.
+    this is a minimax bot that doesn't have a time constraint/cutoff. always reaches same recursive depth; is very very slow to move
     """
 
     def __init__(self):
