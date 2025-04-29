@@ -31,3 +31,15 @@ pip install -r requirements.txt
 ## Packages
 
 Please check [`requirements.py`](requirements.txt).
+
+## About This Fork
+
+This fork highlights my personal contributions to the AI Chess Bot project originally developed collaboratively.
+
+### 🔍 My Focus:
+- Built multiple AI bots using random, greedy, minimax, and time-constrained strategies
+- Developed a modular Pygame interface for both autonomous and manual play
+- Integrated a heuristic fallback into the time-aware minimax agent to ensure sub-0.1s move selection
+- Achieved an 80% win rate against baseline bots and a 9–2 record in competitive bot tournaments
+
+See [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md) for a full breakdown of my work.
